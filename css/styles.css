@@ -251,7 +251,7 @@ body {
 
 /* footer */
 footer {
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.255)), url(../img/f3.jpg);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.099), rgba(0, 0, 0, 0.23)), url(../img/f3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,7 +327,7 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     height: 2.5px;
-    background: linear-gradient(#f2f2f2c8, #a1a1a15d);
+    background: linear-gradient(#f2f2f2c8, #a1a1a189);
     margin-bottom: 60px;
 }
 
@@ -347,12 +347,11 @@ footer {
     width: 500px;
     height: 500px;
     border-radius: 15px;
-
 }
 
 .mapa {
     padding: 20px;
-    background: linear-gradient(#ffffffc4, #9696965d);
+    background: linear-gradient(#ffffffc4, #ffffffa0);
     box-shadow: 0 7px 80px #ffffff2d;
 }
 
@@ -362,7 +361,7 @@ footer {
 }
 
 .container-form {
-    background: linear-gradient(#ffffffc4, #9696965d);
+    background: linear-gradient(#ffffffc4, #ffffffa8);
     padding: 20px 30px;
     box-shadow: 0 7px 80px #ffffff2d;
     border-radius: 15px;
@@ -370,6 +369,7 @@ footer {
 
 .container-form label {
     color: #000;
+    font-style: italic;
 }
 
 .formulario div {
@@ -385,6 +385,7 @@ footer {
     margin: 5px 0 20px 0;
     outline: none;
     font-family: sans-serif;
+    border: 1px solid rgb(62, 62, 255);
 }
 
 #message {
@@ -395,6 +396,8 @@ footer {
     font-size: 1.2rem;
     height: 140px;
     font-family: sans-serif;
+    border: 1px solid rgb(62, 62, 255);
+
 }
 
 .btn-form {
